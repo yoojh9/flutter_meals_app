@@ -10,3 +10,7 @@ A new Flutter project.
 
 - A screen is a normal widget but it's loaded such that it fills the entire (or the majority) of the device screen. Typically, it also controls the app bar etc.
 - A widget which controls the entire screen (or at least makes up the main content of the screen)
+
+## 3. onGenerateRoute() & onUnKnownRoute()
+
+**onGenerateRoute** executes for any unregistered named route, **onUnKnownRoute** executes if onGenerateRoute isn't defined or doesn't return a valid navigation action.
